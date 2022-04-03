@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="144.012">
+    <testcase classname="User is able to login with correct email and password combination" name="Login Successful" time="19.276">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User Clicks on Login option.............................................passed
+And User enters correct email...............................................passed
+And User enters correct password............................................passed
+When User clicks Login button...............................................passed
+Then User should land on the homepage with "https://takehome.zeachable.com/".passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is able to login with correct email and password combination" name="Signup link takes User to Signup page from login page" time="9.67">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User Clicks on Login option.............................................passed
+When User clicks Signup link at bottom of screen............................passed
+Then User should land on signup page........................................passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is able to login with correct email and password combination" name="Forgot Password link takes User to Reset Password page from login page" time="9.437">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User Clicks on Login option.............................................passed
+When User clicks Forgot Password............................................passed
+Then User should land on Reset Password page................................passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is able to signup with correct name,email and password combination" name="Signup Successful" time="11.591">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User clicks on Signup option............................................passed
+And User enters name........................................................passed
+And User enters valid email.................................................passed
+And User enters valid password..............................................passed
+When User clicks signup button..............................................passed
+Then User should land on the homepage_signup with "https://takehome.zeachable.com/".passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is able to signup with correct name,email and password combination" name="Login link takes User to Login page from Signup page" time="8.915">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User clicks on Signup option............................................passed
+When User clicks Login link at bottom of screen.............................passed
+Then User should land on login page.........................................passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is unable to login with incorrect email and/or incorrect password combination" name="Login unsuccessful" time="10.862">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User Clicks on Login option.............................................passed
+And User enters email as "takehome@test.com"................................passed
+And User enters password as "test"..........................................passed
+When User clicks Login button...............................................passed
+Then User should stay on the login page with login "Fail"...................passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is unable to login with incorrect email and/or incorrect password combination" name="Login unsuccessful 2" time="11.755">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User Clicks on Login option.............................................passed
+And User enters email as "test@test.com"....................................passed
+And User enters password as "Teachable".....................................passed
+When User clicks Login button...............................................passed
+Then User should stay on the login page with login "Fail"...................passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is unable to login with incorrect email and/or incorrect password combination" name="Login unsuccessful 3" time="11.186">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User Clicks on Login option.............................................passed
+And User enters email as "test@test.com"....................................passed
+And User enters password as "test"..........................................passed
+When User clicks Login button...............................................passed
+Then User should stay on the login page with login "Fail"...................passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is unable to signup with invalid/blank name,email and/or invalid password combination" name="signup unsuccessful" time="12.572">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User clicks on Signup option............................................passed
+And User enters Name as "Test1".............................................passed
+And User enters Email as "".................................................passed
+And User enters Password as ""..............................................passed
+When User clicks signup button..............................................passed
+Then User should not be able to signup with status "Fail"...................passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is unable to signup with invalid/blank name,email and/or invalid password combination" name="signup unsuccessful 2" time="12.33">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User clicks on Signup option............................................passed
+And User enters Name as "Test1".............................................passed
+And User enters Email as "Test@test"........................................passed
+And User enters Password as "test12"........................................passed
+When User clicks signup button..............................................passed
+Then User should not be able to signup with status "Fail"...................passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is unable to signup with invalid/blank name,email and/or invalid password combination" name="signup unsuccessful 3" time="12.732">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User clicks on Signup option............................................passed
+And User enters Name as "Test1".............................................passed
+And User enters Email as "Test@test.com"....................................passed
+And User enters Password as ""..............................................passed
+When User clicks signup button..............................................passed
+Then User should not be able to signup with status "Fail"...................passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User is unable to signup with invalid/blank name,email and/or invalid password combination" name="signup unsuccessful 4" time="13.214">
+        <system-out><![CDATA[Given User navigates to correct url.........................................passed
+And User clicks on Signup option............................................passed
+And User enters Name as ""..................................................passed
+And User enters Email as "Test@test.com"....................................passed
+And User enters Password as "test"..........................................passed
+When User clicks signup button..............................................passed
+Then User should not be able to signup with status "Fail"...................passed
+Then User exits the website.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

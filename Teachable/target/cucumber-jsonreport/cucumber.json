@@ -1,0 +1,1336 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-03T22:42:34.366Z",
+        "line": 14,
+        "name": "Login Successful",
+        "description": "",
+        "id": "user-is-able-to-login-with-correct-email-and-password-combination;login-successful;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12049178200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2101747700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Clicks on Login option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289303500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters correct email",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_enters_correct_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116555200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters correct password",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_enters_correct_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2064032300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2288135800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on the homepage with \"https://takehome.zeachable.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://takehome.zeachable.com/\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_should_land_on_the_homepage_with(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 257356800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T22:42:53.669Z",
+        "line": 16,
+        "name": "Signup link takes User to Signup page from login page",
+        "description": "",
+        "id": "user-is-able-to-login-with-correct-email-and-password-combination;signup-link-takes-user-to-signup-page-from-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4658120400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2444250200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Clicks on Login option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107760700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks Signup link at bottom of screen",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_signup_link_at_bottom_of_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2244289500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should land on signup page",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_should_land_on_signup_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209304300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T22:43:03.350Z",
+        "line": 23,
+        "name": "Forgot Password link takes User to Reset Password page from login page",
+        "description": "",
+        "id": "user-is-able-to-login-with-correct-email-and-password-combination;forgot-password-link-takes-user-to-reset-password-page-from-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4600915000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2157646400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User Clicks on Login option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127354200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks Forgot Password",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_forgot_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2192353200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should land on Reset Password page",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_should_land_on_reset_password_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 334914800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User is able to login with correct email and password combination",
+    "description": "",
+    "id": "user-is-able-to-login-with-correct-email-and-password-combination",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature_files/successful_login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-03T22:43:12.808Z",
+        "line": 14,
+        "name": "Signup Successful",
+        "description": "",
+        "id": "user-is-able-to-signup-with-correct-name-email-and-password-combination;signup-successful;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4746947600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2156063400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Signup option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_signup_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142207700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters name",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_enters_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83678700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters valid email",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_enters_valid_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63789900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters valid password",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_enters_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1922538600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks signup button",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2186604600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on the homepage_signup with \"https://takehome.zeachable.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://takehome.zeachable.com/\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_should_land_on_the_homepage_signup_with(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 248420100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T22:43:24.409Z",
+        "line": 16,
+        "name": "Login link takes User to Login page from Signup page",
+        "description": "",
+        "id": "user-is-able-to-signup-with-correct-name-email-and-password-combination;login-link-takes-user-to-login-page-from-signup-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4210803300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2171146400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on Signup option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_signup_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101326100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks Login link at bottom of screen",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_login_link_at_bottom_of_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2194747900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should land on login page",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_should_land_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 227377600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User is able to signup with correct name,email and password combination",
+    "description": "",
+    "id": "user-is-able-to-signup-with-correct-name-email-and-password-combination",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature_files/successful_signup.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-03T22:43:33.341Z",
+        "line": 14,
+        "name": "Login unsuccessful",
+        "description": "",
+        "id": "user-is-unable-to-login-with-incorrect-email-and/or-incorrect-password-combination;login-unsuccessful;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3946441500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2109880600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Clicks on Login option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2190759700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters email as \"takehome@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"takehome@test.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74021700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password as \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2065985700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168042500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should stay on the login page with login \"Fail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fail\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_should_stay_on_the_login_page_with_login(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 272676200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T22:43:44.212Z",
+        "line": 15,
+        "name": "Login unsuccessful",
+        "description": "",
+        "id": "user-is-unable-to-login-with-incorrect-email-and/or-incorrect-password-combination;login-unsuccessful;;3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4741841200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2224419900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Clicks on Login option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2139351600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters email as \"test@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@test.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99667300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password as \"Teachable\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teachable\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2087792700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178347400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should stay on the login page with login \"Fail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fail\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_should_stay_on_the_login_page_with_login(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 274867800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T22:43:55.986Z",
+        "line": 16,
+        "name": "Login unsuccessful",
+        "description": "",
+        "id": "user-is-unable-to-login-with-incorrect-email-and/or-incorrect-password-combination;login-unsuccessful;;4",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4241164800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2100316000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Clicks on Login option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2138624400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters email as \"test@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@test.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99667400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password as \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2092231000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235748200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should stay on the login page with login \"Fail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fail\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_should_stay_on_the_login_page_with_login(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 265783000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User is unable to login with incorrect email and/or incorrect password combination",
+    "description": "",
+    "id": "user-is-unable-to-login-with-incorrect-email-and/or-incorrect-password-combination",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature_files/unsuccessful_login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-03T22:44:07.185Z",
+        "line": 15,
+        "name": "signup unsuccessful",
+        "description": "",
+        "id": "user-is-unable-to-signup-with-invalid/blank-name-email-and/or-invalid-password-combination;signup-unsuccessful;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4878306900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2143330700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Signup option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_signup_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2142352600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Name as \"Test1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test1\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79730000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Email as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_Email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56812600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Password as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_Password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 786280900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks signup button",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2167349500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should not be able to signup with status \"Fail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fail\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_should_not_be_able_to_signup_with_status(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 274051500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T22:44:19.765Z",
+        "line": 16,
+        "name": "signup unsuccessful",
+        "description": "",
+        "id": "user-is-unable-to-signup-with-invalid/blank-name-email-and/or-invalid-password-combination;signup-unsuccessful;;3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4418353600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2224387600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Signup option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_signup_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2152716200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Name as \"Test1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test1\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107103000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Email as \"Test@test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test@test\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_Email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88703100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Password as \"test12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test12\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_Password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 909517700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks signup button",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2166162200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should not be able to signup with status \"Fail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fail\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_should_not_be_able_to_signup_with_status(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 250313800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T22:44:32.104Z",
+        "line": 17,
+        "name": "signup unsuccessful",
+        "description": "",
+        "id": "user-is-unable-to-signup-with-invalid/blank-name-email-and/or-invalid-password-combination;signup-unsuccessful;;4",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5564614500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2127049300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Signup option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_signup_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2129944600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Name as \"Test1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test1\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95682100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Email as \"Test@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test@test.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_Email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84747400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Password as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_Password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287581200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks signup button",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2192547600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should not be able to signup with status \"Fail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fail\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_should_not_be_able_to_signup_with_status(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 242006800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-03T22:44:44.844Z",
+        "line": 18,
+        "name": "signup unsuccessful",
+        "description": "",
+        "id": "user-is-unable-to-signup-with-invalid/blank-name-email-and/or-invalid-password-combination;signup-unsuccessful;;5",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6104298900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to correct url",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_navigates_to_correct_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2082995800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on Signup option",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_on_signup_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2206090500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Name as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_name_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67283800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Email as \"Test@test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test@test.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_Email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60797800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Password as \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_enters_Password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254831500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks signup button",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_clicks_signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2174034500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should not be able to signup with status \"Fail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fail\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.stepdefinition.user_should_not_be_able_to_signup_with_status(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249525800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User exits the website",
+            "match": {
+              "location": "stepDefinitions.stepdefinition.user_exits_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User is unable to signup with invalid/blank name,email and/or invalid password combination",
+    "description": "",
+    "id": "user-is-unable-to-signup-with-invalid/blank-name-email-and/or-invalid-password-combination",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature_files/unsuccessful_signup.feature",
+    "tags": []
+  }
+]
